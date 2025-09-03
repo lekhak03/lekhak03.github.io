@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 /* Markdown content styling */
 .markdown-content {
   @apply text-terminal-text;
@@ -82,23 +78,4 @@
 /* Code highlighting adjustments for dark theme */
 .hljs {
   @apply bg-terminal-surface !important;
-}
-
-html, body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  overflow: hidden;            /* prevent body scroll */
-  background-color: black;
-  overscroll-behavior: none;  /* prevent bounce */
-}
-
-
-.nav-bar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 9999;
-  background-color: rgba(0, 0, 0, 0.9);
 }

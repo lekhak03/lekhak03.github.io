@@ -72,7 +72,7 @@ export const Blog: React.FC = () => {
   excerpt: 'A collaborative drawing web app built with React and Firebase. Explore drawing sync, export functionality, and client-specific stroke tracking in real-time.',
   date: '2025-07-14',
   readTime: '9 min read',
-  tags: ['Collaboration', 'React', 'Firebase', 'Canvas API', 'Web App'],
+  tags: ['Collaboration', 'React', 'Firebase', 'Canvas API'],
   featured: true
 }
 

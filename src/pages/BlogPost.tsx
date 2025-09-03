@@ -16,13 +16,6 @@ export const BlogPost: React.FC = () => {
 
   // Blog post metadata - this should match the data in Blog.tsx
   const blogPostsMetadata: Record<string, any> = {
-    'building-scalable-backend-systems': {
-      title: 'Building Scalable Backend Systems: Lessons from the Trenches',
-      date: '2024-03-15',
-      readTime: '8 min read',
-      tags: ['Backend', 'Scalability', 'Architecture'],
-      author: 'Deep Lekhak'
-    },
     'rsa-encryption-from-scratch': {
     title: 'Building RSA Encryption from Scratch in Java',
     date: '2025-06-28',
@@ -64,8 +57,14 @@ date: '2025-07-14',
 author: "Deep Lekhak",
 readTime: "10 min read",
 tags: ["File Sharing", "Peer-to-Peer", "React", "Node.js", "MongoDB"]
-}
-
+},
+    'sketch-app': {
+      title: 'Building a Real-Time Collaborative Sketch App with React and Firebase',
+      date: '2024-03-15',
+      readTime: '8 min read',
+      tags: ['Collaboration', 'React', 'Firebase', 'Canvas API'],
+      author: 'Deep Lekhak'
+    },
 };
 
 

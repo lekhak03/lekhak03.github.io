@@ -10,7 +10,7 @@ export const Projects: React.FC = () => {
       description: 'A comprehensive implementation of the RSA encryption algorithm built with Java. This project served as a deep dive into cryptography fundamentals and secure data transmission protocols.',
       tech: ['Java', 'Cryptography', 'Security'],
       icon: Shield,
-      github: 'https://github.com/Deep03/RSA-Algorithm',
+      github: 'https://github.com/lekhak03/RSA-Algorithm',
       color: 'from-red-500 to-orange-500',
       status: 'Complete'
     },
@@ -19,7 +19,7 @@ export const Projects: React.FC = () => {
       description: 'A secure peer-to-peer file sharing web application enabling users to send, receive, and download files through direct connections. Built with Node.js backend and React frontend.',
       tech: ['Node.js', 'React', 'P2P', 'WebRTC'],
       icon: Share2,
-      github: 'https://github.com/Deep03/Peer-Circle',
+      github: 'https://github.com/lekhak03/Peer-Circle',
       color: 'from-blue-500 to-cyan-500',
       status: 'Complete'
     },
@@ -28,7 +28,7 @@ export const Projects: React.FC = () => {
       description: 'An implementation of FaceNet for face recognition and clustering using TensorFlow. Focuses on secure user authentication through advanced facial recognition algorithms.',
       tech: ['TensorFlow', 'Python', 'Machine Learning', 'Computer Vision'],
       icon: Brain,
-      github: 'https://github.com/Deep03/FaceDetect',
+      github: 'https://github.com/lekhak03/FaceDetect',
       color: 'from-purple-500 to-pink-500',
       status: 'WIP'
     },
@@ -37,7 +37,7 @@ export const Projects: React.FC = () => {
       description: 'A faithful recreation of the beloved mobile game using Java Swing. Features smooth gameplay mechanics, collision detection, and score tracking with a desktop-optimized interface.',
       tech: ['Java', 'Swing', 'Game Development'],
       icon: Gamepad2,
-      github: 'https://github.com/Deep03/Flappybird-game',
+      github: 'https://github.com/lekhak03/Flappybird-game',
       color: 'from-green-500 to-emerald-500',
       status: 'Complete'
     },
@@ -46,7 +46,7 @@ export const Projects: React.FC = () => {
       description: 'A backend application for sports statistics management built with Node.js and Express. Provides RESTful APIs for data management without relying on client-side frameworks.',
       tech: ['Node.js', 'Express', 'REST API', 'Database'],
       icon: BarChart3,
-      github: 'https://github.com/Deep03/Pundits-StatBook',
+      github: 'https://github.com/lekhak03/Pundits-StatBook',
       color: 'from-yellow-500 to-orange-500',
       status: 'WIP'
     },
@@ -55,7 +55,7 @@ export const Projects: React.FC = () => {
       description: 'A lightweight Chrome extension designed to help users quickly and efficiently delete their browsing history. Built as a learning exercise in browser extension development.',
       tech: ['JavaScript', 'Chrome API', 'Web Extensions'],
       icon: Chrome,
-      github: 'https://github.com/Deep03/deleteHis',
+      github: 'https://github.com/lekhak03/deleteHis',
       color: 'from-gray-500 to-slate-500',
       status: 'Complete'
     },
