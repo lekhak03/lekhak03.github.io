@@ -101,13 +101,14 @@ export const Home: React.FC = () => {
             <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-terminal-green via-terminal-blue to-terminal-purple bg-clip-text text-transparent">
               Deepak Lekhak
             </h1>
-            <div className="font-mono text-xl md:text-2xl text-terminal-muted mb-8">
+            {/* <div className="font-mono text-xl md:text-2xl text-terminal-muted mb-8">
               <TypewriterText 
                 text="Backend Developer | Machine Learning Dabbler | Coffee Enthusiast"
                 delay={1500}
                 speed={80}
               />
-            </div>
+            </div> */} 
+            {/* Uncomment above to reavel the cool slide animation stuff */}
             
             {/* Social Links */}
             <motion.div
@@ -119,7 +120,7 @@ export const Home: React.FC = () => {
               <motion.a
                 whileHover={{ scale: 1.1, rotate: 5 }}
                 whileTap={{ scale: 0.9 }}
-                href="https://github.com/Deep03"
+                href="https://github.com/lekhak03"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 bg-terminal-surface border border-terminal-border rounded-lg hover:border-terminal-green transition-colors group"
