@@ -20,6 +20,9 @@ import {
   User,
   BarChart,
   Target,
+  Map,
+  Globe,
+  LineChart,
   Circle,
 } from 'lucide-react';
 
@@ -34,8 +37,8 @@ export const Analytics: React.FC = () => {
   type: 'HR Analytics',
   icon: User,
   image: 'https://images.pexels.com/photos/3184405/pexels-photo-3184405.jpeg?auto=compress&cs=tinysrgb&w=800',
-  notebook: '/notebooks/employee-churn.ipynb',
-  github: 'https://github.com/lekhak03/employee-churn',
+  notebook: 'https://github.com/lekhak03/churn-model/blob/main/Pilot_Analysis_Employee_Churn.ipynb',
+  github: 'https://github.com/lekhak03/churn-model',
   metrics: { accuracy: '98.8%', auc: '0.99', records: '15K+' },
   color: 'from-emerald-500 to-teal-500'
 },
@@ -49,7 +52,7 @@ export const Analytics: React.FC = () => {
   icon: BarChart,
   image: 'https://images.pexels.com/photos/669619/pexels-photo-669619.jpeg?auto=compress&cs=tinysrgb&w=800',
   notebook: null,
-  github: 'https://github.com/lekhak03/hr-analytics-dashboard',
+  github: 'https://github.com/lekhak03/powerBI-project/blob/main/workingHRProject.pdf',
   metrics: { cases: '740', hours: '5,124', topCategory: '765 hrs (Category 3)' },
   color: 'from-indigo-500 to-blue-500'
 },
@@ -64,59 +67,57 @@ export const Analytics: React.FC = () => {
   image: 'https://images.pexels.com/photos/399187/pexels-photo-399187.jpeg?auto=compress&cs=tinysrgb&w=800',
   notebook: null,
   github: 'https://github.com/lekhak03/pundit-statbook',
+  linkLabel: 'https://pundit-statbook.vercel.app/',
   metrics: { roles: '4', charts: '2+', performance: 'Real-time SSR' },
   color: 'from-yellow-500 to-orange-500'
 },
 
-    {
-      title: 'The Pulse of Social Media',
-      description: 'What is the internet feeling today? This real-time sentiment analysis pipeline processes thousands of social media posts to understand public opinion and emotional trends as they happen.',
-      story: 'Started as curiosity about election sentiment, evolved into a comprehensive social listening platform.',
-      tech: ['Python', 'NLTK', 'TensorFlow', 'Apache Kafka', 'Redis'],
-      type: 'NLP & Streaming',
-      icon: BarChart3,
-      image: 'https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=800',
-      demo: 'https://sentiment-dashboard.vercel.app',
-      notebook: '/notebooks/sentiment-analysis.ipynb',
-      github: 'https://github.com/lekhak03/sentiment-analysis',
-      metrics: { accuracy: '88%', throughput: '1K/sec', languages: '5' },
-      color: 'from-purple-500 to-violet-500'
-    },
-    {
-      title: 'Supply Chain Detective Work',
-      description: 'Like solving a massive puzzle, this project optimized complex supply chain logistics using mathematical modeling. The result? 23% cost reduction and significantly happier logistics managers.',
-      story: 'A real-world challenge from a manufacturing company that needed to optimize 150+ delivery routes.',
-      tech: ['Python', 'PuLP', 'NetworkX', 'Gurobi', 'Folium'],
-      type: 'Operations Research',
-      icon: Database,
-      image: 'https://images.pexels.com/photos/1267338/pexels-photo-1267338.jpeg?auto=compress&cs=tinysrgb&w=800',
-      notebook: '/notebooks/supply-chain-optimization.ipynb',
-      github: 'https://github.com/lekhak03/supply-chain-optimization',
-      metrics: { savings: '23%', routes: '150+', efficiency: '+31%' },
-      color: 'from-orange-500 to-amber-500'
-    },
-    {
-      title: 'Anomaly Detective: IoT Edition',
-      description: 'When sensors start acting weird, this system knows. Using isolation forests and LSTM networks, it catches anomalies in real-time, preventing costly equipment failures before they happen.',
-      story: 'Deployed in a smart factory, this system prevented 3 major equipment failures in its first month.',
-      tech: ['Python', 'TensorFlow', 'Scikit-learn', 'InfluxDB', 'Grafana'],
-      type: 'Anomaly Detection',
-      icon: PieChart,
-      image: 'https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&w=800',
-      demo: 'https://anomaly-detection-demo.vercel.app',
-      notebook: '/notebooks/anomaly-detection.ipynb',
-      github: 'https://github.com/lekhak03/anomaly-detection',
-      metrics: { precision: '95%', alerts: '24/7', prevented: '3 failures' },
-      color: 'from-indigo-500 to-purple-500'
-    }
+{
+  title: 'Interactive Mapping with Folium',
+  description: 'Created dynamic geospatial visualizations using Folium, clustering locations, customizing markers, and integrating geographic calculations to explore spatial patterns.',
+  story: 'What began as a simple mapping exercise expanded into an exploration of how interactive geospatial tools can reveal hidden patterns in data.',
+  tech: ['Python', 'Folium', 'Pandas', 'MarkerCluster'],
+  type: 'Geospatial Analytics',
+  icon: Map,
+  image: 'https://images.pexels.com/photos/408503/pexels-photo-408503.jpeg?auto=compress&cs=tinysrgb&w=800',
+  notebook: 'https://github.com/lekhak03/ibm-ds-certification/blob/main/folium_lab.ipynb',
+  metrics: { maps: '5+', clusters: 'Marker-based', features: 'Custom popups' },
+  color: 'from-green-500 to-emerald-500'
+},
+
+{
+  title: 'Comparing Classification Models',
+  description: 'Evaluated multiple classification algorithms—Logistic Regression, KNN, SVM, and Decision Trees—on a real dataset, comparing accuracy, precision, recall, and F1-scores.',
+  story: 'A simple classification task grew into a comprehensive benchmark of machine learning algorithms, providing insight into trade-offs across models.',
+  tech: ['Python', 'Scikit-learn', 'Pandas', 'Seaborn', 'Matplotlib'],
+  type: 'Machine Learning',
+  icon: LineChart,
+  image: 'https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=800',
+  notebook: 'https://github.com/lekhak03/ibm-ds-certification/blob/main/machine_learning_models.ipynb',
+  metrics: { models: '5+', best: 'SVM/Random Forest', metrics: 'Accuracy, F1, AUC' },
+  color: 'from-purple-500 to-pink-500'
+},
+
+{
+  title: 'Data Visualization Showcase',
+  description: 'Produced compelling plots using Matplotlib, Seaborn, and Folium to highlight relationships, distributions, and geospatial insights from datasets.',
+  story: 'What started as practice with charting libraries became a storytelling exercise, translating raw numbers into intuitive visual narratives.',
+  tech: ['Python', 'Matplotlib', 'Seaborn', 'Folium'],
+  type: 'Data Visualization',
+  icon: BarChart,
+  image: 'https://images.pexels.com/photos/669619/pexels-photo-669619.jpeg?auto=compress&cs=tinysrgb&w=800',
+  notebook: 'https://github.com/lekhak03/ibm-ds-certification/blob/main/visualizations.ipynb',
+  metrics: { plots: '10+', libraries: '3', insights: 'Multi-domain' },
+  color: 'from-cyan-500 to-sky-500'
+},
   ];
 
   const skills = {
-    'Machine Learning': ['Scikit-learn', 'TensorFlow', 'PyTorch', 'XGBoost', 'Prophet'],
+    'Machine Learning': ['Scikit-learn', 'TensorFlow', 'PyTorch', 'PyCaret', 'Hugging Face'],
     'Data Visualization': ['D3.js', 'Plotly', 'Matplotlib', 'Seaborn', 'Tableau'],
     'Data Processing': ['Pandas', 'NumPy', 'Apache Spark', 'Dask', 'Polars'],
     'Databases': ['PostgreSQL', 'MongoDB', 'InfluxDB', 'Redis', 'BigQuery'],
-    'Cloud & DevOps': ['AWS', 'Docker', 'Kubernetes', 'Apache Kafka', 'Airflow']
+    // 'Cloud & DevOps': ['AWS', 'Docker', 'Kubernetes', 'Apache Kafka', 'Airflow']
   };
 
   const containerVariants = {
@@ -194,12 +195,12 @@ export const Analytics: React.FC = () => {
               <Code2 className="w-8 h-8 text-white" />
             </div>
             <h2 className="text-4xl font-bold mb-4 text-gray-800">
-              Technology Arsenal
+              Tools Arsenal
             </h2>
             <p className="text-gray-600 text-lg">The tools that bring data stories to life</p>
           </motion.div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {Object.entries(skills).map(([category, skillList], index) => (
               <motion.div
                 key={category}
@@ -341,31 +342,36 @@ export const Analytics: React.FC = () => {
 
                     {/* Action Buttons */}
                     <div className="flex flex-wrap gap-3">
-                      <motion.a
-                        whileHover={{ scale: 1.05 }}
-                        whileTap={{ scale: 0.95 }}
-                        href={project.github}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex items-center space-x-2 px-4 py-2 bg-gray-800 text-white rounded-xl hover:bg-gray-700 transition-colors font-medium"
-                      >
-                        <Github className="w-4 h-4" />
-                        <span>Code</span>
-                      </motion.a>
+{project.linkLabel && (
+  <motion.a
+    whileHover={{ scale: 1.05 }}
+    whileTap={{ scale: 0.95 }}
+    href={project.linkLabel}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex items-center space-x-2 px-4 py-2 bg-blue-600 text-white rounded-xl hover:bg-blue-500 transition-colors font-medium"
+  >
+    <Globe className="w-4 h-4" />
+    <span>Live Site</span>
+  </motion.a>
+)}
+
+{project.github && (
+  <motion.a
+    whileHover={{ scale: 1.05 }}
+    whileTap={{ scale: 0.95 }}
+    href={project.github}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex items-center space-x-2 px-4 py-2 bg-gray-800 text-white rounded-xl hover:bg-gray-700 transition-colors font-medium"
+  >
+    <Github className="w-4 h-4" />
+    <span>Code</span>
+  </motion.a>
+)}
+
+
                       
-                      {project.demo && (
-                        <motion.a
-                          whileHover={{ scale: 1.05 }}
-                          whileTap={{ scale: 0.95 }}
-                          href={project.demo}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="flex items-center space-x-2 px-4 py-2 bg-blue-500 text-white rounded-xl hover:bg-blue-600 transition-colors font-medium"
-                        >
-                          <Eye className="w-4 h-4" />
-                          <span>Live Demo</span>
-                        </motion.a>
-                      )}
 
                       {project.notebook && (
                         <motion.a

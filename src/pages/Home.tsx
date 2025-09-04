@@ -99,7 +99,7 @@ export const Home: React.FC = () => {
               />
             </div>
             <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-terminal-green via-terminal-blue to-terminal-purple bg-clip-text text-transparent">
-              Deep Lekhak
+              Deepak Lekhak
             </h1>
             <div className="font-mono text-xl md:text-2xl text-terminal-muted mb-8">
               <TypewriterText 

@@ -21,40 +21,40 @@ export const BlogPost: React.FC = () => {
     date: '2025-06-28',
     readTime: '7 min read',
     tags: ['Java', 'Cryptography', 'Security'],
-    author: 'Deep Lekhak'
+    author: 'Deepak Lekhak'
     },
     'facenet-model-implementation': {
     title: 'Implementing Face Net Model From Scratch',
     date: '2025-06-28',
     readTime: '7 min read',
     tags: ['FaceNet', 'CNN', 'Image Recognition', 'Machine Learning'],
-    author: 'Deep Lekhak'
+    author: 'Deepak Lekhak'
     },
     'simple-python-http-server': {
     title: 'An Introduction To Building HTTP Server In Python',
     date: '2025-06-28',
     readTime: '5 min read',
     tags: ['Network', 'HTTP', 'Sockets'],
-    author: 'Deep Lekhak'
+    author: 'Deepak Lekhak'
     },
     'automate-spotify-playlist-downloads-python': {
     title: 'Automate Spotify Playlist Downloads Using YouTube and Python',
     date: '2024-04-20',
     readTime: '9 min read',
     tags: ['Python', 'Spotify', 'YouTube', 'Automation', 'Audio Processing'],
-    author: 'Deep Lekhak'
+    author: 'Deepak Lekhak'
     },
     'automating-email-sorting-gmail-api': {
   title: 'Automating Email Sorting with Gmail API and Python',
   date: '2025-07-14',
   readTime: '8 min read',
   tags: ['Email', 'Gmail API', 'Python', 'Automation'],
-  author: 'Deep Lekhak'
+  author: 'Deepak Lekhak'
 },
 'peer-circle' :{
 title: "Building a Secure File Transfer Web App with React, Node.js, and PeerJS",
 date: '2025-07-14',
-author: "Deep Lekhak",
+author: "Deepak Lekhak",
 readTime: "10 min read",
 tags: ["File Sharing", "Peer-to-Peer", "React", "Node.js", "MongoDB"]
 },
@@ -63,7 +63,7 @@ tags: ["File Sharing", "Peer-to-Peer", "React", "Node.js", "MongoDB"]
       date: '2024-03-15',
       readTime: '8 min read',
       tags: ['Collaboration', 'React', 'Firebase', 'Canvas API'],
-      author: 'Deep Lekhak'
+      author: 'Deepak Lekhak'
     },
 };
 

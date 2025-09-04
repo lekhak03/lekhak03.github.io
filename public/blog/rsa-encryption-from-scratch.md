@@ -1,7 +1,7 @@
 
 # Building RSA Encryption from Scratch in Java
 
-**By \[Deep Lekhak]**
+**By \[Deepak Lekhak]**
 *Portfolio Project – Cryptography & Security Engineering*
 
 ---

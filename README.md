@@ -1,7 +1,7 @@
-# Portfolio - Deep Lekhak
+# Portfolio - Deepak Lekhak
 
 ## Introduction 🙇🏻
-Hello! My name is Deep Lekhak, an enthusiastic engineer with a passion for mathematics and a strong desire to explore the world of computer science. In my opinon, a theory left unapplied, is a theory wasted. At the end of the day, theory will only take you so far.😉
+Hello! My name is Deepak Lekhak, an enthusiastic engineer with a passion for mathematics and a strong desire to explore the world of computer science. In my opinon, a theory left unapplied, is a theory wasted. At the end of the day, theory will only take you so far.😉
 
 ## Bio 👨🏻‍💻
 I am currently majoring in mathematics, and my journey in this field is driven by two primary motivations:
@@ -25,8 +25,7 @@ I am passionate about learning and creating, and I'm excited to showcase some of
 ## Connect With Me 👉🏼👈🏼
 I'm always eager to connect with like-minded individuals, learn from others, and collaborate on exciting projects. Feel free to reach out to me through the following channels:
 
-- GitHub: [GitHub Profile](https://github.com/Deep03)
-- LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/dlekhak/)
+- GitHub: [GitHub Profile](https://github.com/lekhak03)
 
 Let's embark on this journey of exploration, innovation, and problem-solving together. Thanks for visiting my portfolio!
 

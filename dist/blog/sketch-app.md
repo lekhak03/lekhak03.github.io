@@ -1,7 +1,7 @@
 # Building a Real-Time Sketch Drawing Sync App with Firebase and React
 
 **Date:** 2025-07-28
-**Author:** Deep Lekhak
+**Author:** Deepak Lekhak
 **Read Time:** 10 min
 **Tags:** React, Firebase, Canvas, Real-Time Apps, Drawing Sync
 
