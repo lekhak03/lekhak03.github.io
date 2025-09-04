@@ -114,7 +114,7 @@ export const Home: React.FC = () => {
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              transition={{ delay: 3, duration: 0.5 }}
+              transition={{ delay: 1, duration: 0.5 }}
               className="flex justify-center space-x-6 mb-12"
             >
               <motion.a
@@ -174,7 +174,7 @@ export const Home: React.FC = () => {
                     The Journey
                   </h3>
                   <p className="text-terminal-muted leading-relaxed">
-                    Am I am student? Am I am coder? Am I interested in machine learning? Am I just a backend developer?
+                    Am I am student? Am I am coder? Am I interested in machine learning? Am I just a?
                     Turns out,...I am all of them.
                   </p>
                   <p className="text-terminal-muted leading-relaxed">I am an engineer.</p>
@@ -217,10 +217,10 @@ export const Home: React.FC = () => {
           about.txt
         </h3>
         <p className="text-terminal-muted leading-relaxed">
-          Am I am student? Am I am coder? Am I interested in machine learning? Am I just a backend developer?
+          Am I am student? Am I am coder? Am I interested in machine learning?
           Turns out,...I am all of them.
         </p>
-        <p className="text-terminal-muted leading-relaxed">I am an engineer.</p>
+        {/* <p className="text-terminal-muted leading-relaxed">I am an engineer.</p> */}
       </GlowCard>
     </motion.div>
   </div>
