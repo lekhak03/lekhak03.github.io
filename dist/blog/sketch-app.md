@@ -1,12 +1,5 @@
 # Building a Real-Time Sketch Drawing Sync App with Firebase and React
 
-**Date:** 2025-07-28
-**Author:** Deepak Lekhak
-**Read Time:** 10 min
-**Tags:** React, Firebase, Canvas, Real-Time Apps, Drawing Sync
-
----
-
 ## ✍️ Overview
 
 This project explores how to build a **real-time collaborative drawing app** using **React** and **Firebase**. Users can draw on a canvas and instantly sync their sketches with others, creating a seamless interactive experience.
@@ -30,45 +23,6 @@ At its heart, the app allows users to collaboratively draw, with every stroke sa
 * **Client-side deduplication**
 * **Exporting and persisting sketches**
 
----
-
-## 🧱 Folder Structure Overview
-
-```
-├── components/
-│   ├── Login.jsx
-│   ├── Choose.jsx
-│   └── Accept.jsx
-├── utils/
-│   ├── util.ts
-│   └── types.ts
-├── firebase/
-│   └── firebase.js
-├── App.jsx
-├── index.js
-├── styles.css
-```
-
----
-
-## 🔐 Login and Navigation
-
-The app starts with a simple login and room selection system using `Login.jsx`, `Choose.jsx`, and `Accept.jsx`. These manage user identity and connect them to drawing sessions, backed by Firebase documents.
-
-### `Login.jsx` – Identify the User
-
-This component allows users to enter their name, which is stored in local state and passed through routing.
-
-```jsx
-<input
-  className="text-black rounded px-2 py-1 w-full"
-  placeholder="Enter your name"
-  value={username}
-  onChange={(e) => setUsername(e.target.value)}
-/>
-```
-
----
 
 ## 🖍️ Real-Time Drawing Engine
 
@@ -76,7 +30,7 @@ This component allows users to enter their name, which is stored in local state 
 
 Drawing is implemented using the HTML Canvas API inside a `ref`, with the ability to draw `pen` or `eraser` strokes.
 
-From `Choose.jsx`:
+From `App.jsx`:
 
 ```jsx
 const handleMouseDown = (e) => {
