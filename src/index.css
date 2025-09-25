@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+html, body, #root {
+  @apply bg-terminal-bg;
+}
+
+
 /* Markdown content styling */
 .markdown-content {
   @apply text-terminal-text;
